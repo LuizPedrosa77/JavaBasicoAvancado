@@ -41,7 +41,7 @@ public class Repeticao {
             // DO WHILE <--
             // O "do while" manda rodar o programar 1x antes de fechar o programa, independente do resultado
 
-        boolean x = true;
+        boolean x3 = true;
         int contador3 = 0;
 
         do {
@@ -51,7 +51,7 @@ public class Repeticao {
             } else {
                 x = false;
             }
-        }    while (x == true);
+        }    while (x3 == true);
 
             // FOR -> for(variável; comparação; operação){}
 
