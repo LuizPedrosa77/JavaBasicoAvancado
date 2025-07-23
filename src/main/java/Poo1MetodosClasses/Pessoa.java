@@ -1,4 +1,4 @@
-package Poo1;
+package Poo1MetodosClasses;
 
 public class Pessoa {
     // MODIFICADORES DE ACESSOS -> public - private - protected
@@ -19,6 +19,7 @@ public class Pessoa {
     private String nome;
     private String cpf;
     private int idade;
+    private char sexo;
     private String whatsapp;
 
 
@@ -38,15 +39,17 @@ public class Pessoa {
         nome = "";
         cpf = "";
         idade = 0;
+        sexo = ' ';
         whatsapp = "";
     }
 
 
     //Construtor com parametros
-    public Pessoa (String nome, String cfp, int idade, String whatsapp) {
+    public Pessoa (String nome, String cfp, int idade, char sexo, String whatsapp) {
         this.nome = nome;
         this.cpf = cpf;
         this.idade = idade;
+        this.sexo = sexo;
         this.whatsapp = whatsapp;
     }
 
@@ -67,7 +70,7 @@ public class Pessoa {
     // set -> alterar ou atualizar ou inserir uma informação
     // get -> pegar em inglês - vai recuperar a informação
     // Metodos Sem retorno e com retorno
-
+    // Os métodos também pode ser os comportamentos e ações dentro do programa
 
 
 
@@ -77,7 +80,7 @@ public class Pessoa {
     }
 
     public String getNome() {  //Como é nome, usa-se String (texto)
-        return nome;  // return -> retorna para a Classe principal
+        return nome; // return -> retorna para a Classe principal
     }
 
     public void setCpf(String cpf) {
@@ -100,21 +103,32 @@ public class Pessoa {
         this.whatsapp = whatsapp;   // this -> pode ser usado para diferenciar um atributo da Classe ou referir a mesma instancia
     }
 
+    public void setSexo(char sexo) {
+        this.sexo = ' ';
+    }
+
+    public char getSexo() {
+        return sexo;
+    }
+
     public String getWhatsapp() {  //Como é nome, usa-se String (texto)
         return whatsapp;  // return -> retorna para a Classe principal
     }
 
+    // Metodo com uma açao
     // Metodo sem retorno e sem parametro
     public void apresentar() {
         System.out.println(nome);
         System.out.println(cpf);
         System.out.println(idade);
+        System.out.println(sexo);
         System.out.println(whatsapp);
     }
 
+    // Metodo com uma açao
     // Metodo com retorno e com parametro
     public String getApresentacao() {
-        return (nome+","+cpf+", "+idade+", "+whatsapp);
+        return (nome+","+cpf+", "+idade+", "+sexo+", "+whatsapp);
     }
 
 
