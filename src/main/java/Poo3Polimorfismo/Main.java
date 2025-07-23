@@ -1,7 +1,5 @@
 package Poo3Polimorfismo;
 
-import Poo2Heranca.Funcionario;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -11,7 +9,22 @@ public class Main {
          classe "Funcionario" está herdando a classe "Pessoa", logo, esse objeto "f1"
          poderá usar tudo que está na classe "Funcionario" e na classe "Pessoa"
          */
-        Poo2Heranca.Funcionario f1 = new Funcionario();
+
+        // Criador de objeto da Classe (Funcionario (+Pessoa))
+
+        Funcionario f1 = new Funcionario();
+
+        // Objetos-> está sendo usado os atributos e metodos da classe "Funcionario" junto com tudo que herdou de "Pessoa"
+        f1.setNome("Luiz");
+        f1.setSexo('M');
+        f1.setIdade(33);
+        f1.setCpf("0001");
+        f1.setCargo("Programador");
+        f1.setSalario(4000.0);
+
+        // Está sendo usado o metodo de açao "apresentar" da classe funcionario que tem a SOBREESCRITA da classe "Pessoa"
+        f1.apresentar();
+
 
     }
 

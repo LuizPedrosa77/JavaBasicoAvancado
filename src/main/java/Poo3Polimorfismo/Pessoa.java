@@ -2,11 +2,10 @@ package Poo3Polimorfismo;
 
 public class Pessoa {
 
-
     // Atributos
-    String nome;
-    char sexo;
-    int idade;
+    private String nome;
+    private char sexo;
+    private int idade;
 
     // construtor padrão
     public Pessoa() {
@@ -53,6 +52,4 @@ public class Pessoa {
         System.out.println("Sexo: " + sexo);
         System.out.println("Idade: " + idade);
     }
-
-
 }
