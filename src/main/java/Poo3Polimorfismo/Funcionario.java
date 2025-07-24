@@ -1,3 +1,4 @@
+/**
 package Poo3Polimorfismo;
 
 import Poo2Heranca.Pessoa;
@@ -76,7 +77,7 @@ import Poo2Heranca.Pessoa;
             System.out.println(salario);
             System.out.println(cargo);
         }
-        */
+
 
         // Já neste exemplo, estou puxando este metodo da classe "Pessoa" e utilizando o comportamento que tem nele.
         // Aqui eu posso incluir os que são dessa classe "Funcionario"
@@ -88,4 +89,5 @@ import Poo2Heranca.Pessoa;
             System.out.println(cargo);
 
             }
+
     }

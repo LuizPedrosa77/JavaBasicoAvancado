@@ -1,7 +1,10 @@
-/**
-package Poo3Polimorfismo;
+
+package Poo5ClasseEMetodoAbstrato;
+
+import Poo5ClasseEMetodoAbstrato.Funcionario;
 
 public class Main {
+
 
     public static void main(String[] args) {
 
@@ -10,7 +13,7 @@ public class Main {
          classe "Funcionario" está herdando a classe "Pessoa", logo, esse objeto "f1"
          poderá usar tudo que está na classe "Funcionario" e na classe "Pessoa"
          */
-        /**
+
         // Criador de objeto da Classe (Funcionario (+Pessoa))
 
         Funcionario f1 = new Funcionario();
@@ -28,5 +31,4 @@ public class Main {
 
 
     }
-
 }

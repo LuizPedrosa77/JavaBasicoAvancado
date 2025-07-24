@@ -1,7 +1,7 @@
-/**
-package Poo3Polimorfismo;
+package Poo5ClasseEMetodoAbstrato;
 
 public class Pessoa {
+
 
     // Atributos
     private String nome;

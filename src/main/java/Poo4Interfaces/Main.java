@@ -1,7 +1,10 @@
 /**
-package Poo3Polimorfismo;
+package Poo4Interfaces;
+
+import Poo4Interfaces.Funcionario;
 
 public class Main {
+
 
     public static void main(String[] args) {
 
@@ -10,10 +13,10 @@ public class Main {
          classe "Funcionario" está herdando a classe "Pessoa", logo, esse objeto "f1"
          poderá usar tudo que está na classe "Funcionario" e na classe "Pessoa"
          */
-        /**
+/**
         // Criador de objeto da Classe (Funcionario (+Pessoa))
 
-        Funcionario f1 = new Funcionario();
+        Poo4Interfaces.Funcionario f1 = new Funcionario();
 
         // Objetos-> está sendo usado os atributos e metodos da classe "Funcionario" junto com tudo que herdou de "Pessoa"
         f1.setNome("Luiz");
@@ -28,5 +31,4 @@ public class Main {
 
 
     }
-
 }

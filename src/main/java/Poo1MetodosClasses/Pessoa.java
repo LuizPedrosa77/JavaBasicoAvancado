@@ -1,3 +1,4 @@
+/**
 package Poo1MetodosClasses;
 
 public class Pessoa {
@@ -11,7 +12,7 @@ public class Pessoa {
      Na classe 'Pessoa' o que seria interessante como variáveis que pudesse armazenar dados para serem manipulados
      todos de uma vez no meu programa:
      */
-
+/**
     // De modo geral, uma Classe representa uma estrutura padronizada expecífica
 
 
@@ -33,7 +34,7 @@ public class Pessoa {
      A palavra RESERVADA (this) serve para acessar específicamente tudo que está dentro da classe
 
      */
-
+/**
     // Construtor padrao
     public Pessoa() {
         nome = "";
@@ -64,7 +65,7 @@ public class Pessoa {
      3. Com retorno e sem parametro -> public String getNome() {}
      4. Com retorno e com parametro -> public String getApresentacao() {}
      */
-
+/**
     // public -> É o metodo que permite eu alterar variaveis dentro do construtor e tambem dentro de outra classe externa
     // void -> Serve para dar uma ordem para fazer aquela determinada atividade e pronto.
     // set -> alterar ou atualizar ou inserir uma informação
