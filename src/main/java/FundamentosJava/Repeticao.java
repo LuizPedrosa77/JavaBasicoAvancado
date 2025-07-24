@@ -53,6 +53,24 @@ public class Repeticao {
             }
         }    while (x3 == true);
 
+            /**
+             Abaixo está a versão simplificada do "for". Com esse metodo,
+             podemos encurtar tuodo aquele processo.
+
+             for(tipo + nome qualquer : estrutura) {
+                System.out.println(nome qualquer);
+             }
+
+            System.out.println("-----ESSA É A VERSÃO SIMPLIFICADA DO 'FOR'-----");
+            for(String familia: nome3) {
+                System.out.println(familia);
+            }
+             */
+
+
+            /**
+                Abaixo a versão padrão do "for"
+             */
             // FOR -> for(variável; comparação; operação){}
 
         for(int i=0; i<10; i++) {

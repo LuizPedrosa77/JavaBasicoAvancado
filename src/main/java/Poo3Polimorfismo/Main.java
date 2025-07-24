@@ -3,7 +3,7 @@ package Poo3Polimorfismo;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { */
 
         /**
          Aqui eu estou criando um objeto "F1" da classe "Funcionario". Porem, como a
@@ -29,4 +29,4 @@ public class Main {
 
     }
 
-}
+} */

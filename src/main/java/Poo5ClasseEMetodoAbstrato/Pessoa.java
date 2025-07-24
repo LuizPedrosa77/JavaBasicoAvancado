@@ -1,6 +1,17 @@
+/**
+    Essa Classe "Pessoa" só serve de modelo e estrutora para criar os objetos dentro da Classe "Funcionario" e "Gestor"
+    Por causa disso, ela pode se tornar uma classe "abstract" que é abstrata, já que ela nunca vai criar nada.
+    Essa classe "PESSOA" é uma classe ABSTRACT. Classes CONCRETAS podem gerar objetos e ABSTRACT não
+ */
+
 package Poo5ClasseEMetodoAbstrato;
 
-public class Pessoa {
+// A principal diferença entre este metodo de "interface" para a "Classe abstract" é que a "interface" obrigado utilizar
+// todos os conteudos que estão dentro da interface enquanto a "Classe abstract" não, você escolhe o que quer usar.
+
+// Porém, o "metodo abstract" é obrigatorio a implementação!
+
+public abstract class Pessoa {
 
 
     // Atributos
@@ -54,4 +65,7 @@ public class Pessoa {
         System.out.println("Idade: " + idade);
     }
 
+    // O metodo abstract pode ser tanto com retorno quando sem retorno mas
+    // sua utilização só pode ser dentro da classe abstract como estamos agora!
+    public abstract void falar();
 }

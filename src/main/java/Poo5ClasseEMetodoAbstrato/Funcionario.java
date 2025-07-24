@@ -1,3 +1,9 @@
+/**
+    A classe "Funcionario" será a classe usada pela principal para criação de objetos.
+    Essa classe "Funcionario" vai receber a classe "abstract Pessoa" e a "interface Pagamento"
+    Essa classe "Gestor" é uma classe CONCRETA. Classes CONCRETAS podem gerar objetos e ABSTRACT não
+ */
+
 package Poo5ClasseEMetodoAbstrato;
 
 
@@ -5,6 +11,8 @@ import Poo5ClasseEMetodoAbstrato.Pagamento;
 import Poo5ClasseEMetodoAbstrato.Pessoa;
 
 // Quando se usa "extends + Classe", será herdade tudo que está na classe que foi usada
+// Como a classe "abstract Pessoa" tem um "metodo abstract" incluso, se torna obrigatorio a sua inclusao dentro
+// dessa classe GESTOR
 public class Funcionario extends Pessoa implements Pagamento {
 
     // Essa classe está herdando toda classe "Pessoa"
@@ -89,6 +97,15 @@ public class Funcionario extends Pessoa implements Pagamento {
         System.out.println(salario);
         System.out.println(cargo);
 
+    }
+
+    // Este metodo foi herdado da "Classe abstract Pessoa" onde o metodo tambem é abstract e isso é
+    // chamado de "POLIMORFISMO DE SOBREESCRITA"
+    // Pelo fato de ter um "metodo abstract" detro da classe, quando herdamos a classe, se torna obrigatorio o uso
+    // deste metodo.
+    @Override
+    public void falar() {
+        System.out.println("Fala mais calmo");
     }
 
     // Este metodo faz parte da "interface Pagamento" Por isso está usando o "@Override"

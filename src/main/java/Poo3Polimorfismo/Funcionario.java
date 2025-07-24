@@ -70,6 +70,7 @@ import Poo2Heranca.Pessoa;
         // mas está sendo herdade de algum outro local (Outra Classe ou Package)
 
         // O exemplo abaixo mostra que estou puxando este metodo da classe "Pessoa" e mudando o comportamento
+ /*
         /**
         @Override
         public void apresentar() {
@@ -78,7 +79,8 @@ import Poo2Heranca.Pessoa;
             System.out.println(cargo);
         }
 
-
+        /*
+        /**
         // Já neste exemplo, estou puxando este metodo da classe "Pessoa" e utilizando o comportamento que tem nele.
         // Aqui eu posso incluir os que são dessa classe "Funcionario"
         @Override
@@ -90,4 +92,4 @@ import Poo2Heranca.Pessoa;
 
             }
 
-    }
+    } */

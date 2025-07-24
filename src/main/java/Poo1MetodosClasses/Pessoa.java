@@ -3,7 +3,7 @@ package Poo1MetodosClasses;
 
 public class Pessoa {
     // MODIFICADORES DE ACESSOS -> public - private - protected
-
+*/
     /**
 
      Atributos: São variáveis que armazenam dados e possuem modificadores de acesso que são:
@@ -26,7 +26,8 @@ public class Pessoa {
 
     // Construtores
 
-    /**
+  */
+/**
      O java tem 2 tipos de construtores:
      1. Padrão
      2. Já recebe parâmetros
@@ -55,7 +56,7 @@ public class Pessoa {
     }
 
     // Metodos
-
+*/
     /**
      Metodos -> São ações que representam comportamentos da minha Classe.
      Há 4 métodos que podemos usar:
@@ -133,4 +134,4 @@ public class Pessoa {
     }
 
 
-}
+} */

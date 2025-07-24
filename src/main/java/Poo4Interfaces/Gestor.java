@@ -9,4 +9,4 @@ public class Gestor implements Pagamento {
     public void pagar() {
         System.out.println("Pagar no dinheiro");
     }
-}
+} */
