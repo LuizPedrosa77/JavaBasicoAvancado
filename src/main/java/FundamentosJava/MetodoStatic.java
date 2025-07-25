@@ -20,7 +20,13 @@ public class MetodoStatic {
 
     class Contador {
 
-        static int contagem = 0;
+    /**
+        O Metodo "static" fora do "main" indica que foi criado uma CLASSE GLOBAL e essa classe pode ser acessada
+        em qualquer lugar pois o "static" torna o metodo estatico ao acesso.
+        Assim, não precisa ficar sempre criando metodos para tudo. O ideal e usar essa classe "static" para
+        situações onde esse metodo sempre será o mesmo e tornando o programa mais clean (limpo).
+     */
+    static int contagem = 0;
 
         public Contador() {
             contagem++;
