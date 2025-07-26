@@ -1,0 +1,8 @@
+package Poo7PacotesEPadrãoDeProjetos.web;
+
+public class Controller {
+
+    public void image() {}
+    public void apresentar() {}
+    public void mostrarId(int cpf) {}
+}

@@ -1,4 +1,4 @@
-package PooProjetoJujutsu;
+package Poo6ProjetoJujutsu;
 
 public abstract class Feiticeiro {
 

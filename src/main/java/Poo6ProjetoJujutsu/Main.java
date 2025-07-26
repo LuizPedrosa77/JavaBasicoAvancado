@@ -1,4 +1,4 @@
-package PooProjetoJujutsu;
+package Poo6ProjetoJujutsu;
 
 public class Main {
     public static void main(String[] args) {

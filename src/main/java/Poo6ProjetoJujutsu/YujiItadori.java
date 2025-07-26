@@ -1,4 +1,4 @@
-package PooProjetoJujutsu;
+package Poo6ProjetoJujutsu;
 
 // Este personagem esta herdando a Classe Feiticeiro e esta implementando a interface Energia
 public class YujiItadori extends Feiticeiro implements  Energia {
