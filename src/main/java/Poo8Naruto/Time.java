@@ -28,4 +28,13 @@ public class Time {
     public String getNomeDoTime() {
         return nomeDoTime;
     }
+
+    // Metodo para apresentar a Aldeia
+    public String toString() {
+        return "Nome do time: " + nomeDoTime + " Time: " + time;
+    }
+
+    public String getApresentar() {
+        return "Nome: " + nomeDoTime + " Time: " + time;
+    }
 }

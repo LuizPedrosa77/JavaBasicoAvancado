@@ -34,4 +34,14 @@ public class Aldeia {
     public void adicionarNinja(Ninja ninja) {
         ninjas.add(ninja);
     }
+
+    // Metodo para apresentar a Aldeia
+    public String toString() {
+        return "Nome: "+nome+" Ninjas: "+ninjas+" Pessoas: "+pessoas;
+    }
+
+    public String getApresentar() {
+        return "Nome: " + nome + " Ninjas: " + ninjas + " Pessoas: " + pessoas;
+    }
+
 }

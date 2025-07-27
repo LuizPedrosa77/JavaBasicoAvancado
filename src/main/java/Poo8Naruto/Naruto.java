@@ -18,4 +18,7 @@ public class Naruto extends Ninja implements Tecnica {
         System.out.println(nome);
     }
 
+
+
+
 }

@@ -49,4 +49,13 @@ public class Pessoa {
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
+
+    // Metodo para apresentar a Aldeia
+    public String toString() {
+        return "Nome: "+nome+" Peso: "+peso+" Altura: "+altura+" Função: "+funcao;
+    }
+
+    public String getApresentar() {
+        return "Nome: "+nome+" Peso: "+peso+" Altura: "+altura+" Função: "+funcao;
+    }
 }

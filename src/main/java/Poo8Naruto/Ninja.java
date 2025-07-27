@@ -40,4 +40,13 @@ public abstract class Ninja extends Pessoa {
     public void setNivel(int nivel) {
         this.nivel = nivel;
     }
+
+    // Metodo para apresentar a Aldeia
+    public String toString() {
+        return "Nome do Cla: "+nomeCla+" Nome da Vila: "+nomeVila+" Nível: "+nivel;
+    }
+
+    public String getApresentar() {
+        return "Nome do Cla: "+nomeCla+" Nome da Vila: "+nomeVila+" Nível: "+nivel;
+    }
 }
