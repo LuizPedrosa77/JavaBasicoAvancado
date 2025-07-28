@@ -64,8 +64,6 @@ public class TiposDeIfElseElvesOparation {
             var buscarIdade = (idade>=18) || (idade>=16 && isEmancipated);
             var message = buscarIdade ? nome + ", você pode dirigir! \n" : nome + ", você não pode dirigir! \n";
 
-
-
             System.out.println(message);
             System.out.println("Fim da execução");
             scanner.close();
