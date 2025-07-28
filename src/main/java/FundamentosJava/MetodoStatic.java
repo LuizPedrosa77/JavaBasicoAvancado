@@ -15,8 +15,7 @@ public class MetodoStatic {
 
     }
  }
- */
-
+*/
 
     class Contador {
 

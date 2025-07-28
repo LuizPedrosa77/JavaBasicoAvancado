@@ -10,7 +10,6 @@ public class ManipulacaoTexto {
             Luiz Gustavo Jeronimo Pedrosa
          */
 
-
         char caracter = nome.charAt(0);
         System.out.println(caracter);
 

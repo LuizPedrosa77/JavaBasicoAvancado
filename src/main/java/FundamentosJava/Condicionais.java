@@ -80,7 +80,6 @@ public class Condicionais {
 
             // EXEMPLO 4 - Valores lógicos
 
-
         boolean ehDeMaior = false;
 
         if(ehDeMaior == true) {
