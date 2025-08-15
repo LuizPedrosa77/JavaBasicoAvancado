@@ -14,8 +14,8 @@ public class CatalogoLivros {
     }
 
     // Adicionando livros
-    public void adicionarLivro(String titulo, String autor, String descricao) {
-        livroList.add(new Livro(titulo, autor, descricao));
+    public void adicionarLivro(String titulo, String autor, int anoPublicacao) {
+        livroList.add(new Livro(titulo, autor, anoPublicacao));
     }
 
     // Pesquisa de livros por autor
