@@ -7,7 +7,7 @@ public class BancoDeDados {
     // Conexao com banco de dados
     String url = "jdbc:mysql://localhost:3306/pizzaria";
     String login = "root";
-    String senha = "lg200192";
+    String senha = "root";
     Connection conexao = null; // Cria variavel da conexão
     String comandoSql; // Cria comandos para o SQL
 
