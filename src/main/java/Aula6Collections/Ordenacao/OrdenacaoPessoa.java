@@ -10,7 +10,7 @@ public class OrdenacaoPessoa {
     // atributos
     private List<Pessoa> pessoaList;
 
-    public OrdenacaoPessoa(List<Pessoa> pessoaList) {
+    public OrdenacaoPessoa() {
         this.pessoaList = new ArrayList<>();
     }
 
@@ -31,4 +31,19 @@ public class OrdenacaoPessoa {
         return pessoasPorAltura;
     }
 
+    public static void main(String[] args) {
+
+        OrdenacaoPessoa ordenacaoPessoa = new OrdenacaoPessoa();
+        ordenacaoPessoa.adicionarPessoa("Nome 1",20,1.56);
+        ordenacaoPessoa.adicionarPessoa("Nome 2",40,1.80);
+        ordenacaoPessoa.adicionarPessoa("Nome 3",30,1.70);
+        ordenacaoPessoa.adicionarPessoa("Nome 4",20,1.56);
+
+        System.out.println(ordenacaoPessoa.pessoaList);
+
+        System.out.println(ordenacaoPessoa.ordenadoPorIdade());
+        System.out.println(ordenacaoPessoa.ordenadoPorAltura());
+
+
+    }
 }
