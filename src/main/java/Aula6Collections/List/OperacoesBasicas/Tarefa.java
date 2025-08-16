@@ -1,4 +1,4 @@
-package Aula6Collections.OperacoesBasicas;
+package Aula6Collections.List.OperacoesBasicas;
 
 public class Tarefa {
 
