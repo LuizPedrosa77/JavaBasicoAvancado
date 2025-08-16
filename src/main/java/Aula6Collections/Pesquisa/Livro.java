@@ -39,8 +39,12 @@ public class Livro {
         return anoPublicacao;
     }
 
-    public String toString(){
-        return "Titulo: "+titulo+", Autor: "+autor+", ano da publicação: "+anoPublicacao;
+    @Override
+    public String toString() {
+        return "Livro{" +
+                "titulo='" + titulo + '\'' +
+                ", autor='" + autor + '\'' +
+                ", anoPublicacao=" + anoPublicacao +
+                '}';
     }
-
 }

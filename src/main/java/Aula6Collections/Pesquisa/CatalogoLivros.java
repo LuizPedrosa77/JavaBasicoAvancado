@@ -18,6 +18,7 @@ public class CatalogoLivros {
         livroList.add(new Livro(titulo, autor, anoPublicacao));
     }
 
+
     // Pesquisa de livros por autor
     public List<Livro> pesquisarPorAutor(String autor) {
         List<Livro> livroPorAutor = new ArrayList<>();
@@ -31,7 +32,7 @@ public class CatalogoLivros {
         return livroPorAutor;
     }
 
-
+    // Pesquisa de livros por Intervalo de Ano
     public List<Livro> pesquisarPorIntervaloDeAno(int anoInicial, int anoFinal) {
         List<Livro> livroPorIntervaloAnos = new ArrayList<>();
         if (!livroList.isEmpty()) {
@@ -44,6 +45,7 @@ public class CatalogoLivros {
         return livroPorIntervaloAnos;
     }
 
+    // Pesquisa de livros por titulo
     public Livro pesquisarPorTitulo(String titulo) {
         Livro livroPorTitulo = null;
         if (!livroList.isEmpty()) {
@@ -57,4 +59,15 @@ public class CatalogoLivros {
         return livroPorTitulo;
     }
 
+    public static void main(String[] args) {
+        CatalogoLivros catalogoLivros = new CatalogoLivros();
+        catalogoLivros.adicionarLivro("Livro 1", "Autor 1", 2020);
+        catalogoLivros.adicionarLivro("Livro 1", "Autor 2", 2021);
+        catalogoLivros.adicionarLivro("Livro 1", "Autor 3", 2022);
+        catalogoLivros.adicionarLivro("Livro 1", "Autor 4", 2023);
+        catalogoLivros.adicionarLivro("Livro 1", "Autor 5", 2024);
+
+        System.out.println(catalogoLivros.pesquisarPorIntervaloDeAno(2020,2025));
+
+    }
 }
