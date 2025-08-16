@@ -1,8 +1,7 @@
-package Aula6Collections.Map;
+package Aula6Collections.Map.AgendamentoContato;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class AgendaDeContato {
 
